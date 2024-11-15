@@ -1,0 +1,7 @@
+st.set_page_config(
+    page_title="US Oil Wells",
+    layout = "wide",
+    initial_sidebar_state="expanded")
+alt.themes.enable('dark')
+#Upload cleaned data
+df = pd.read_csv('data_outliers_cleaned.csv') 
